@@ -1,0 +1,17 @@
+[fugue.plugins]
+dask = fugue_dask.registry [dask]
+dask_ibis = fugue_dask.ibis_engine [ibis,dask]
+duckdb = fugue_duckdb.registry [duckdb]
+duckdb_ibis = fugue_duckdb.ibis_engine [duckdb,ibis]
+ibis = fugue_ibis [ibis]
+polars = fugue_polars.registry [polars]
+ray = fugue_ray.registry [ray]
+spark = fugue_spark.registry [spark]
+spark_ibis = fugue_spark.ibis_engine [spark,ibis]
+
+[pytest11]
+fugue_test_dask = fugue_test.plugins.dask [dask]
+fugue_test_duckdb = fugue_test.plugins.duckdb [duckdb]
+fugue_test_misc = fugue_test.plugins.misc
+fugue_test_ray = fugue_test.plugins.ray [ray]
+
