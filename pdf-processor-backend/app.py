@@ -10,7 +10,7 @@ import re
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "http://localhost:3000"}})
 
-openai_key = "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"
+openai_key = ""
 os.environ['OPENAI_KEY'] = openai_key
 
 
