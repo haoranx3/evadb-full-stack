@@ -1,0 +1,13 @@
+evadb==0.3.8
+numpy==1.24.4
+openai==0.28.0
+pandas==2.1.0
+PyPDF2==3.0.1
+requests==2.31.0
+retry==0.9.2
+safetensors==0.4.0
+SQLAlchemy==2.0.20
+SQLAlchemy-Utils==0.41.1
+statsforecast==1.6.0
+statsmodels==0.14.0
+urllib3==2.0.4
