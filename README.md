@@ -10,7 +10,14 @@ front end:
   ```sh
   npm install
   ```
+```sh
+npm start
+  ```
 back end:
 ```sh
 pip install -r requirements.txt
+  ```
+
+```sh
+python app.py
   ```
